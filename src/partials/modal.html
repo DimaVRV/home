@@ -1,5 +1,18 @@
-<div class="modal">
-  <h2 class="modal__title">
-    Модал вікно
-  </h2>
+<div class="backdrop">
+  <div class="backdrop__modal">
+    <h2 class="backdrop__title">
+      Leave your contacts and we will contact you
+    </h2>
+    <form class="backdrop__form">
+			<label for="name" class="backdrop__label"></label>
+			<input type="text" pattern="[A-Za-zА-Яа-яЁё\s]+" id="name" class="backdrop__input" required>
+			
+			<label for="phone" class="backdrop__label"></label>
+			<input type="tel" pattern="\+?[0-9\s\-\(\)]{10,}" id="phone" class="backdrop__input"required>
+			
+			<label for="mail" class="backdrop__label"></label>
+			<input type="email" id="mail" class="backdrop__input"required>
+		
+		
+  </div>
 </div>
