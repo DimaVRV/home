@@ -1,11 +1,15 @@
-<load ="partials/header.html" />
-<load ="partials/hero.html" />
-<load ="partials/desk.html" />
-<load ="partials/type.html" />
-<load ="partials/map.html" />
-<load ="partials/gallery.html" />
-<load ="partials/contact.html" />
-<load ="partials/footer.html" />
-<load ="partials/modal.html" />
 
-@import url();
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/common";
+@import "./base/container";
+@import "./sections/header";
+@import "./sections/hero";
+@import "./sections/desk";
+@import "./sections/type";
+@import "./sections/map";
+@import "./sections/gallery";
+@import "./sections/contact";
+@import "./sections/footer";
+@import "./sections/modal";
+@import "./sections/menu";
