@@ -1,0 +1,39 @@
+.header{
+    background: #7E6D53 ;
+    display: flex;
+    gap: 144px;
+
+&__svg{
+    width: 56px;
+height: 56px;
+fill: #FCFCFB;
+}
+
+
+&__list{
+    display: flex;
+    gap: 48px;
+
+}
+
+&__link{
+    color: #FCFCFB;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+&__button{
+    display: flex;
+height: 40px;
+padding: 4px 29px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid #FCFCFB;
+background: #2E2B23;
+}
+}
