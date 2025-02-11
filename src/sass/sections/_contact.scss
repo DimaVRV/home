@@ -1,12 +1,13 @@
 .contact {
   &__title {
-    color: #7e6d53;
+    color: #7e6d53; 
     font-family: Poppins;
     font-size: 40px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 8px;
   }
+
   &__subtitle {
     color: #7e6d53;
     text-align: center;
@@ -15,6 +16,7 @@
     font-weight: 300;
     margin-bottom: 20px;
   }
+
   &__box {
     display: flex;
     border-radius: 16px;
@@ -24,17 +26,19 @@
     height: 226px;
     margin: 0 auto;
   }
+
   &__content {
     display: flex;
-   
     align-items: center;
     gap: 64px; 
   }
+
   &__list {
     display: flex;
     flex-direction: column;
     gap: 24px;
   }
+
   &__item {
     color: #fff;
     opacity: 0.6;
@@ -44,6 +48,7 @@
     font-weight: 300;
     line-height: normal;
   }
+
   &__svg {
     width: 24px;
     height: 24px;
@@ -57,7 +62,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: button-background, #fcfcfb;
+    background: #fcfcfb; 
     color: var(--text-of-pages, #7e6d53);
     border: none;
 

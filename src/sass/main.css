@@ -116,7 +116,7 @@ img {
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-  background: button-background, #fcfcfb;
+  background: #fcfcfb;
   color: var(--text-of-pages, #7e6d53);
   border: none;
   font-family: Poppins;
