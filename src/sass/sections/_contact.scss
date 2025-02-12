@@ -44,20 +44,22 @@
   }
 
   &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__info{
     color: #fff;
     opacity: 0.6;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 300;
-    display: flex;
-    align-items: center;
   }
-
   &__svg {
     width: 24px;
     height: 24px;
     margin-right: 8px;
     stroke: #FCFCFB;
+    fill: none;
   }
 
   &__btn {
