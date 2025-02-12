@@ -45,14 +45,15 @@
     opacity: 0.6;
     font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    display: flex;
+    align-items: center;
   }
 
   &__svg {
     width: 24px;
     height: 24px;
+    margin-right: 8px;
   }
 
   &__btn {
@@ -66,7 +67,7 @@
     background: #fcfcfb; 
     color: var(--text-of-pages, #7e6d53);
     border: none;
-
+    cursor: pointer;
     font-family: Poppins;
     font-size: 24px;
     font-weight: 300;
