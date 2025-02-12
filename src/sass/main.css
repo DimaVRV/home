@@ -113,7 +113,7 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 8px;
-  fill: #FCFCFB;
+  stroke: #FCFCFB;
 }
 .contact__btn {
   display: flex;
@@ -144,6 +144,7 @@ img {
   width: 56px;
   height: 56px;
   margin-right: 162px;
+  fill: #FCFCFB;
 }
 .footer__box {
   display: flex;
@@ -190,6 +191,7 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  margin-top: 20px;
 }
 .footer__span {
   color: #fff;
