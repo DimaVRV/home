@@ -113,6 +113,7 @@ img {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  fill: #FCFCFB;
 }
 .contact__btn {
   display: flex;
@@ -180,6 +181,7 @@ img {
 .footer__svg {
   width: 24px;
   height: 24px;
+  fill: #FCFCFB;
 }
 .footer__text {
   text-align: center;
