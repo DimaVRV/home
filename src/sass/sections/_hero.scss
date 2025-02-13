@@ -1,0 +1,54 @@
+.hero{
+    background-image: linear-gradient( url());
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+padding-bottom: 100px;
+padding-top: 32px;
+
+
+
+
+  &__title{
+    color:  #7E6D53;
+font-family: "Poppins";
+font-size: 72px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 8px;
+  }
+
+  &__desk{
+    color:  #7E6D53;
+    font-family: "Poppins";
+font-size: 24px;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 382px;
+  }
+
+
+
+  &__button{
+    color: #2D2A22;
+
+
+font-family: "Poppins";
+font-size: 24px;
+font-weight: 300;
+line-height: normal;
+display: flex;
+width: 256px;
+height: 54px;
+padding: 14px 28px;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
+  }
+
+
+}
