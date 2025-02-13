@@ -4,16 +4,20 @@
   padding-bottom: 8px;
   &__container {
     display: flex;
+   justify-content: stretch;
+  }
+  &__logo-link {
+    margin-right: 162px;
+    width: 56px;
+    height: 56px;
   }
   &__logo {
     width: 56px;
     height: 56px;
-    margin-right: 162px;
-    fill: #FCFCFB;
+    fill: #fcfcfb;
   }
   &__box {
     display: flex;
-    justify-content: space-between;
   }
   &__list {
     display: flex;
@@ -48,11 +52,11 @@
   &__svg {
     width: 24px;
     height: 24px;
-    fill: #FCFCFB;
+    fill: #fcfcfb;
   }
-  &__twitter{
+  &__twitter {
     fill: none;
-    stroke: #FCFCFB;
+    stroke: #fcfcfb;
   }
   &__text {
     text-align: center;
