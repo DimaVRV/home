@@ -1,0 +1,17 @@
+.hero{
+    background-image: linear-gradient( url());
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  &__title{
+    color: var(--text-of-pages, #7E6D53);
+
+font-family: Poppins;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+}
