@@ -127,8 +127,9 @@
     stroke: $svg-color;
   }
   &__text {
-    margin-left: 245px;
+
     color: $text-second-color;
+    margin: 0 auto;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;

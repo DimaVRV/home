@@ -405,7 +405,7 @@ img {
   stroke: #fcfcfb;
 }
 .footer__text {
-  margin-left: 245px;
+  margin: 0 auto;
   color: #979797;
   font-family: Roboto;
   font-size: 14px;
