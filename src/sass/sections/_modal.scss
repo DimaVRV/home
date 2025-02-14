@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(46, 35, 26, 0.757);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -64,11 +65,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
     @media screen and (min-width: 724px) {
       font-size: 16px;
     }
   }
+  
   &__input {
     margin-top: 8px;
     margin-bottom: 20px;
@@ -83,19 +86,35 @@
     font-size: 14px;
     font-weight: 400;
     outline: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
     @media screen and (min-width: 724px) {
       width: 410px;
       height: 52px;
       font-size: 16px;
     }
-  }
-  &__input:last-child {
-    margin-bottom: 28px;
-
-    @media screen and (min-width: 724px) {
-      margin-bottom: 40px;
+  
+    &:hover,
+    &:focus {
+      border-color: $text-and-button-color;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      transform: scale(1.02);
+    }
+  
+    &::placeholder {
+      color: rgba($input-color, 0.6);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  
+    &:hover::placeholder,
+    &:focus::placeholder {
+      color: rgba($input-color, 0.3);
     }
   }
+  
+  
   &__btn {
     display: flex;
     padding: 14px 52px;
@@ -114,15 +133,27 @@
     cursor: pointer;
     border: none;
     margin: 0 auto;
-
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
     @media screen and (min-width: 724px) {
       padding: 6px 46px;
       font-size: 24px;
       width: 224px;
       height: 54px;
     }
-
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    }
+  
+    &:active {
+      transform: scale(0.98);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
   }
+  
   &__close {
     width: 32px;
     height: 32px;
