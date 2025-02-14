@@ -387,6 +387,7 @@ img {
 @media screen and (min-width: 724px) {
   .footer .footer__list-navigation {
     flex-direction: column;
+    margin-top: 0;
   }
 }
 @media screen and (min-width: 1164px) {
