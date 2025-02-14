@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(269deg, #2d2a22 20.66%, #7e6d53 85.22%);
+  background: linear-gradient(269deg, $btn-mobile-color 20.66%, $text-and-button-color 85.22%);
   padding-top: 20px;
   padding-bottom: 8px;
   @media screen and (min-width: 724px) {
@@ -29,7 +29,7 @@
   &__logo {
     width: 56px;
     height: 56px;
-    fill: #fcfcfb;
+    fill: $svg-color;
   }
   &__box {
     display: flex;
@@ -63,7 +63,7 @@
   }
 
   &__title {
-    color: #fff;
+    color: $white;
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
@@ -91,7 +91,7 @@
   }
   &__link {
     display: block;
-    color: #fff;
+    color: $white;
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
@@ -120,15 +120,15 @@
   &__svg {
     width: 24px;
     height: 24px;
-    fill: #fcfcfb;
+    fill: $svg-color;
   }
   &__twitter {
     fill: none;
-    stroke: #fcfcfb;
+    stroke: $svg-color;
   }
   &__text {
     margin-left: 245px;
-    color: #979797;
+    color: $text-second-color;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -141,7 +141,7 @@
     }
   }
   &__span {
-    color: #fff;
+    color: $white;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;

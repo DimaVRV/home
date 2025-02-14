@@ -1,13 +1,13 @@
 .contact {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #ede9e3;
+  background: $background-contact;
   @media screen and (min-width: 724px) {
     padding-top: 100px;
     padding-bottom: 100px;
   }
   &__title {
-    color: #7e6d53;
+    color: $text-and-button-color;
     font-family: Poppins;
     font-size: 28px;
     font-weight: 500;
@@ -20,7 +20,7 @@
   }
 
   &__subtitle {
-    color: #7e6d53;
+    color: $text-and-button-color;
     text-align: center;
     font-family: Poppins;
     font-size: 20px;
@@ -35,7 +35,7 @@
   &__box {
     display: flex;
     border-radius: 16px;
-    background: #7e6d53;
+    background: $text-and-button-color;
     padding: 24px 20px;
     width: 280px;
     height: 218px;
@@ -81,7 +81,7 @@
     align-items: center;
   }
   &__info {
-    color: #fff;
+    color: white;
     opacity: 0.6;
     font-family: Poppins;
     font-size: 14px;
@@ -94,7 +94,7 @@
     width: 24px;
     height: 24px;
     margin-right: 8px;
-    stroke: #fcfcfb;
+    stroke: $svg-color;
     fill: none;
   }
 
@@ -106,9 +106,8 @@
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background: #fcfcfb;
-
-    color: #2d2a22;
+    background-color: $svg-color;
+    color: $btn-mobile-color;
     border: none;
     cursor: pointer;
     font-family: Poppins;
@@ -116,7 +115,7 @@
     font-weight: 300;
     @media screen and (min-width: 724px) {
       font-size: 24px;
-      color: #7e6d53;
+      color: $text-and-button-color;
       padding: 6px 46px;
     }
   }
