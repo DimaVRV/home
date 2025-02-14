@@ -1,15 +1,30 @@
 .footer {
   background: linear-gradient(269deg, #2d2a22 20.66%, #7e6d53 85.22%);
-  padding-top: 32px;
+  padding-top: 20px;
   padding-bottom: 8px;
+  @media screen and (min-width: 724px) {
+    padding-top: 32px;
+  }
   &__container {
     display: flex;
-   justify-content: stretch;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    @media screen and (min-width: 724px) {
+      flex-wrap: nowrap;
+    }
   }
+
   &__logo-link {
-    margin-right: 162px;
     width: 56px;
     height: 56px;
+    display: none;
+    @media screen and (min-width: 724px) {
+      display: block;
+      margin-right: 127px;
+    }
+    @media screen and (min-width: 1164px) {
+      margin-right: 162px;
+    }
   }
   &__logo {
     width: 56px;
@@ -18,37 +33,88 @@
   }
   &__box {
     display: flex;
+    
   }
   &__list {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-right: 209px;
+    margin-right: 56px;
+
+    @media screen and (min-width: 724px) {
+      margin-right: 84px;
+    }
+    @media screen and (min-width: 1164px) {
+      margin-right: 209px;
+    }
   }
   &__list-address {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-right: 253px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 724px) {
+      margin-right: 91px;
+    }
+    @media screen and (min-width: 1164px) {
+      margin-right: 253px;
+    }
   }
 
   &__title {
     color: #fff;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
+
+    @media screen and (min-width: 724px) {
+      font-size: 20px;
+    }
+  }
+  &__item-address {
+    width: 135px;
+    @media screen and (min-width: 724px) {
+      width: 155px;
+      word-wrap: normal;
+    }
+    @media screen and (min-width: 1164px) {
+      width: 100%;
+    }
+  }
+  &__item-address:last-child {
+    margin-bottom: auto;
+    @media screen and (max-width: 723px) {
+      width: 111px;
+      word-break: break-all;
+    }
   }
   &__link {
+    display: block;
     color: #fff;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+    @media screen and (min-width: 724px) {
+      font-size: 16px;
+    }
   }
-  &__list-navigation {
+
+
+  .footer__list-navigation {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 29px;
+
+    @media screen and (min-width: 724px) {
+      flex-direction: column;
+    }
+    @media screen and (min-width: 1164px) {
+      gap: 30px;
+    }
   }
+  
   &__svg {
     width: 24px;
     height: 24px;
@@ -59,13 +125,18 @@
     stroke: #fcfcfb;
   }
   &__text {
-    text-align: center;
+    margin: 0 auto;
     color: #979797;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     margin-top: 20px;
+    width: 279px;
+    text-align: center;
+    @media screen and (min-width: 724px) {
+      width: 465px;
+    }
   }
   &__span {
     color: #fff;
