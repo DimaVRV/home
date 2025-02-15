@@ -114,6 +114,15 @@
     }
   }
   
+  &__input:last-of-type {
+    margin-bottom: 28px;
+  
+    @media screen and (min-width: 724px) {
+      margin-bottom: 40px;
+    }
+  }
+  
+  
   
   &__btn {
     display: flex;
