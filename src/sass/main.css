@@ -129,6 +129,131 @@ img {
   background: #FCFCFB;
 }
 
+.desk {
+  background: #fcfcfb;
+  background-image: url(./src/img/background-desk.webp);
+  margin-top: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 325px;
+  width: 100%;
+}
+@media screen and (min-width: 724px) {
+  .desk {
+    width: 100%;
+  }
+}
+.desk__back {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.desk__group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+@media screen and (min-width: 724px) {
+  .desk__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .desk__group {
+    gap: 50px;
+    padding: 44px 0;
+  }
+}
+.desk__svglist {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin-bottom: 32px;
+  -moz-column-gap: 17px;
+       column-gap: 17px;
+}
+@media screen and (min-width: 724px) {
+  .desk__svglist {
+    margin-bottom: 0px;
+    row-gap: 60px;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .desk__svglist {
+    row-gap: 92px;
+  }
+}
+.desk__item {
+  flex-basis: auto;
+}
+@media screen and (min-width: 724px) {
+  .desk__item {
+    flex-basis: calc((100% - 40px) / 2);
+  }
+}
+.desk__iconsvg {
+  width: 32px;
+  height: 32px;
+  fill: #2d2a22;
+  fill: none;
+  stroke: black;
+  margin-bottom: 24px;
+}
+.desk__text {
+  color: #2d2a22;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 130px;
+}
+@media screen and (min-width: 724px) {
+  .desk__text {
+    width: 152px;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .desk__text {
+    width: auto;
+  }
+}
+.desk__title {
+  color: #2d2a22;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 724px) {
+  .desk__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+.desk__discript {
+  color: #7e6d53;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  width: 280px;
+}
+@media screen and (min-width: 724px) {
+  .desk__discript {
+    width: 336px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .desk__discript {
+    width: 393px;
+    font-size: 16px;
+  }
+}
+
 .type {
   margin: 100px auto;
 }
