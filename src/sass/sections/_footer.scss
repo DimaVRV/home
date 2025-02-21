@@ -131,11 +131,6 @@
   &__twitter {
     fill: none;
     stroke: $svg-color;
-  
-    &:hover,
-    &:focus {
-      stroke: $text-and-button-color; 
-    }
   }
   &__text {
     color: $text-second-color;

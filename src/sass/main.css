@@ -414,9 +414,6 @@ img {
   fill: none;
   stroke: #fcfcfb;
 }
-.footer__twitter:hover, .footer__twitter:focus {
-  stroke: #7e6d53;
-}
 .footer__text {
   color: #979797;
   font-family: Roboto;
