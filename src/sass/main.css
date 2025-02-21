@@ -331,7 +331,7 @@ img {
     padding: 6px 46px;
   }
 }
-.contact__btn:hover {
+.contact__btn:hover, .contact__btn:focus {
   background-color: #7e6d53;
   border: 1px solid #fcfcfb;
   color: #fcfcfb;
@@ -481,9 +481,16 @@ img {
   height: 24px;
   fill: #fcfcfb;
 }
+.footer__svg:hover,
+.footer__svg :focus {
+  fill: #7e6d53;
+}
 .footer__twitter {
   fill: none;
   stroke: #fcfcfb;
+}
+.footer__twitter:hover, .footer__twitter:focus {
+  stroke: #7e6d53;
 }
 .footer__text {
   color: #979797;

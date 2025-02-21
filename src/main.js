@@ -33,6 +33,6 @@ function triggerAnimation() {
 
 }
 
-setInterval(triggerAnimation, 3000);
+setInterval(triggerAnimation, 4000);
 
 triggerAnimation();
