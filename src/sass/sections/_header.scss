@@ -10,14 +10,24 @@
 
 &__svg{
     width: 56px;
-height: 56px;
-fill: #FCFCFB;
+    height: 56px;
+    fill: #FCFCFB;
+    margin-right: auto;
+    @media screen and (min-width: 724px) {
+margin-right: 0;
+      }
 }
 
 
 &__list{
-    display: flex;
+    display: none;
     gap: 48px;
+
+    @media screen and (min-width: 724px) {
+        gap: 32px;
+        display: flex;
+        
+      }
 
 }
 
@@ -30,7 +40,7 @@ line-height: normal;
 }
 
 &__button{
-    display: flex;
+    display: none;
     height: 40px;
     padding: 4px 29px;
     justify-content: center;
@@ -43,5 +53,26 @@ font-weight: 300;
 border-radius: 8px;
 border: 1px solid #FCFCFB;
 background: #2E2B23;
-}
+
+
+@media screen and (min-width: 1164px) {
+    display: flex;
+  }
+}}
+
+
+
+.burger{
+    display: flex;
+    border: none;
+    background-color: hsla(120, 100%, 50%, 0);
+    @media screen and (min-width: 724px) {
+        display: none;
+      }
+      &__svg{
+        fill: #FCFCFB;
+        width: 18px;
+    height: 16px;
+      }
+
 }
