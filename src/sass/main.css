@@ -131,18 +131,13 @@ img {
 
 .desk {
   background: #fcfcfb;
-  background-image: url(./src/img/deskbg.png);
+  background-image: url(./img/deskbg.png);
   margin-top: 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 325px;
   width: 100%;
-}
-@media screen and (min-width: 724px) {
-  .desk {
-    width: 100%;
-  }
+  padding-bottom: 325px;
 }
 .desk__back {
   background-color: rgba(255, 255, 255, 0.9);
@@ -430,7 +425,7 @@ img {
   justify-content: center;
   height: 420px;
   position: relative;
-  background-image: url(./src/img/timur/mobile/mapbg-mobile@1x.webp);
+  background-image: url(./img/timur/mobile/mapbg-mobile@1x.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,28 +433,28 @@ img {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .map__list {
-    background-image: url(./src/img/timur/mobile/mapbg-mobile@2x.webp);
+    background-image: url(./img/timur/mobile/mapbg-mobile@2x.webp);
   }
 }
 @media screen and (min-width: 724px) {
   .map__list {
     height: 486px;
-    background-image: url(./src/img/timur/tablet/mapbg-tablet@1x.webp);
+    background-image: url(./img/timur/tablet/mapbg-tablet@1x.webp);
   }
 }
 @media screen and (min-width: 724px) and (min-device-pixel-ratio: 2), screen and (min-width: 724px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 724px) and (min-resolution: 192dpi), screen and (min-width: 724px) and (min-resolution: 2dppx) {
   .map__list {
-    background-image: url(./src/img/timur/tablet/mapbg-tablet@2x.webp);
+    background-image: url(./img/timur/tablet/mapbg-tablet@2x.webp);
   }
 }
 @media screen and (min-width: 1176px) {
   .map__list {
-    background-image: url(./src/img/timur/desktop/mapbg-desktop@1x.webp);
+    background-image: url(./img/timur/desktop/mapbg-desktop@1x.webp);
   }
 }
 @media screen and (min-width: 1176px) and (min-device-pixel-ratio: 2), screen and (min-width: 1176px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1176px) and (min-resolution: 192dpi), screen and (min-width: 1176px) and (min-resolution: 2dppx) {
   .map__list {
-    background-image: url(./src/img/timur/desktop/mapbg-desktop@2x.webp);
+    background-image: url(./img/timur/desktop/mapbg-desktop@2x.webp);
   }
 }
 .map__span {
