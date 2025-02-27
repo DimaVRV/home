@@ -30,7 +30,7 @@
         height: 420px;
         position: relative;
 
-        background-image: url(./img/timur/mobile/mapbg-mobile@1x.webp);
+        background-image: url(../img/timur/mobile/mapbg-mobile@1x.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -39,27 +39,27 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(./img/timur/mobile/mapbg-mobile@2x.webp);
+            background-image: url(../img/timur/mobile/mapbg-mobile@2x.webp);
         }
 
         @media screen and (min-width: 724px) {
             height: 486px;
-            background-image: url(./img/timur/tablet/mapbg-tablet@1x.webp);
+            background-image: url(../img/timur/tablet/mapbg-tablet@1x.webp);
 
             @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-                background-image: url(./img/timur/tablet/mapbg-tablet@2x.webp);
+                background-image: url(../img/timur/tablet/mapbg-tablet@2x.webp);
             }
         }
 
         @media screen and (min-width: 1176px) {
-            background-image: url(./img/timur/desktop/mapbg-desktop@1x.webp);
+            background-image: url(../img/timur/desktop/mapbg-desktop@1x.webp);
 
             @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-                background-image: url(./img/timur/desktop/mapbg-desktop@2x.webp);
+                background-image: url(../img/timur/desktop/mapbg-desktop@2x.webp);
             }
         }
     }
