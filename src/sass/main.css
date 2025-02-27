@@ -538,6 +538,125 @@ img {
   }
 }
 
+.gallery {
+  padding-top: 60px;
+  background-color: #ede9e3;
+}
+@media screen and (min-width: 736px) {
+  .gallery {
+    padding-top: 100px;
+  }
+}
+.gallery__title {
+  color: #7e6d53;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 1176px) {
+  .gallery__title {
+    margin-bottom: 20px;
+  }
+}
+.gallery__position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 736px) {
+  .gallery__group {
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  .gallery__group {
+    gap: 36px;
+    margin-bottom: 14px;
+  }
+}
+.gallery__item {
+  width: 77px;
+  height: 130px;
+  margin-top: 22px;
+}
+@media screen and (min-width: 736px) {
+  .gallery__item {
+    width: 152px;
+    height: 232px;
+    margin-top: 56px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  .gallery__item {
+    width: 196px;
+    height: 346px;
+    margin-top: 83px;
+  }
+}
+.gallery__item-center {
+  width: 159px;
+  height: 174px;
+}
+@media screen and (min-width: 736px) {
+  .gallery__item-center {
+    width: 364px;
+    height: 395px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  .gallery__item-center {
+    width: 556px;
+    height: 589px;
+  }
+}
+.gallery__list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+@media screen and (min-width: 736px) {
+  .gallery__list {
+    gap: 18px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  .gallery__list {
+    gap: 32px;
+  }
+}
+.gallery__svg {
+  opacity: 0;
+  display: none;
+}
+@media screen and (min-width: 736px) {
+  .gallery__svg {
+    opacity: 1;
+    display: block;
+    width: 30px;
+    height: 32px;
+  }
+}
+.gallery__svg:hover {
+  fill: #7e6d53;
+}
+.gallery__navigation {
+  width: 48px;
+  height: 8px;
+  fill: #999ea3;
+}
+@media screen and (min-width: 736px) {
+  .gallery__navigation {
+    width: 64px;
+    height: 11px;
+  }
+}
+
 .contact {
   padding-top: 60px;
   padding-bottom: 60px;
