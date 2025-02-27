@@ -1,0 +1,140 @@
+.map {
+    padding-top: 60px;
+    background-color: #EDE9E3;
+
+    @media screen and (min-width: 724px) {
+        padding-top: 100px;
+    }
+
+    &__logo {
+        color: $text-and-button-color;
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: 724px) {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        @media screen and (min-width: 1176px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        height: 420px;
+        position: relative;
+
+        background-image: url(./src/img/timur/mobile/mapbg-mobile@1x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: url(./src/img/timur/mobile/mapbg-mobile@2x.webp);
+        }
+
+        @media screen and (min-width: 724px) {
+            height: 486px;
+            background-image: url(./src/img/timur/tablet/mapbg-tablet@1x.webp);
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(./src/img/timur/tablet/mapbg-tablet@2x.webp);
+            }
+        }
+
+        @media screen and (min-width: 1176px) {
+            background-image: url(./src/img/timur/desktop/mapbg-desktop@1x.webp);
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: url(./src/img/timur/desktop/mapbg-desktop@2x.webp);
+            }
+        }
+    }
+
+    &__span {
+        position: absolute;
+        border-radius: 8px;
+        opacity: 0.8;
+        background: $svg-color;
+        display: flex;
+        flex-direction: column;
+        margin-right: 3px;
+        margin-left: auto;
+        align-items: center;
+        padding: 20px 8px;
+
+        @media screen and (min-width: 724px) {
+            margin-right: 37px;
+            padding: 24px 32px;
+            gap: 30px;
+        }
+
+        @media screen and (min-width: 1176px) {
+            margin-right: 168px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        @media screen and (min-width: 724px) {
+            gap: 14px;
+        }
+    }
+
+    &__title {
+        color: $btn-mobile-color;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        width: 72px;
+
+        @media screen and (min-width: 724px) {
+            font-size: 16px;
+        }
+    }
+
+    &__circle {
+        width: 101px;
+        height: 101px;
+        border-radius: 50%;
+        border: 1px solid $btn-mobile-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        @media screen and (min-width: 724px) {
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    &__desk {
+        color: $text-and-button-color;
+        font-size: 14px;
+        font-weight: 500;
+        min-width: 150px;
+        text-align: center;
+
+        @media screen and (min-width: 724px) {
+            font-size: 16px;
+        }
+    }
+}
