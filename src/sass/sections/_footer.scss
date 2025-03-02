@@ -123,10 +123,6 @@
     width: 24px;
     height: 24px;
     fill: $svg-color;
-    &:hover,
-    :focus{
-      fill: $text-and-button-color;
-    }
   }
   &__twitter {
     fill: none;
