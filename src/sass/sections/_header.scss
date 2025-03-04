@@ -16,8 +16,16 @@ fill: #FCFCFB;
 
 
 &__list{
-    display: flex;
-    gap: 48px;
+    display: none;
+    
+    @media screen and (min-width: 728px) {
+        gap: 32px;
+       display: flex;
+      }
+
+      @media screen and (min-width: 1164px) {
+        gap: 48px;
+      }
 
 }
 
@@ -30,7 +38,7 @@ line-height: normal;
 }
 
 &__button{
-    display: flex;
+    display: none;
     height: 40px;
     padding: 4px 29px;
     justify-content: center;
@@ -43,5 +51,57 @@ font-weight: 300;
 border-radius: 8px;
 border: 1px solid #FCFCFB;
 background: #2E2B23;
+@media screen and (min-width: 1164px) {
+    display: flex;
+  }
 }
+}
+
+.burger{
+    border: none;
+    margin-left: auto;
+    display: flex;
+    background-color:transparent;
+    @media screen and (min-width: 724px) {
+        display: none;
+      }
+}
+
+
+
+
+.phone{
+    position: relative;
+    display: flex;
+width: 320px;
+padding: 80px 108px 254px 108px;
+flex-direction: column;
+align-items: center;
+    z-index: 1;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+ opacity: 1;
+ background: linear-gradient(337deg, #2D2A22 5.7%, #7E6D53 108.98%);
+
+&__list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+ &__button{
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+ }
+}
+
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
 }
