@@ -932,10 +932,6 @@ img {
   height: 24px;
   fill: #fcfcfb;
 }
-.footer__svg:hover,
-.footer__svg :focus {
-  fill: #7e6d53;
-}
 .footer__twitter {
   fill: none;
   stroke: #fcfcfb;
